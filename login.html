@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>jackpiro</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+<style>
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+    
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+    
+    img.avatar {
+        width: 20%;
+        border-radius: 30%;
+    }
+    
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+    /* Change styles for span and cancel button on extra small screens */
+    
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+	.container1{
+	   padding-left:350px;
+	   padding-right:350px;
+		
+	}
+</style>
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header-top">
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                            <div class="full">
+                                <div class="center-desk">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+
+                            <ul class="top_icon">
+                                <li class="button_login"> <a href="login.html">Login</a> </li>
+                                <li> <a href="signup.html">Signup</a> </li>
+                                <li class="mean-last">
+                                    <a href="#"><img src="images/search_icon.png" alt="#" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end header inner -->
+            <br>
+            <br>
+            <div class="container1">
+                <h2>Login Form</h2>
+
+                <form action="login.php" method="post">
+                    <div class="imgcontainer">
+                        <img src="images/avatar.jfif" alt="Avatar" class="avatar">
+                    </div>
+
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="paswd" required>
+
+                        <button type="submit" name="submit">Login</button>
+                        <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+            <!--  footer -->
+            <footr>
+                <div class="footer ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Newsletter</h2>
+                            </div>
+                            <div class="col-md-10 offset-md-1">
+                                <form class="news">
+                                    <input class="newslatter" placeholder="Enter Your Email" type="text" name="Enter Your Email">
+                                    <button class="submit">Subscribe</button>
+                                </form>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                                        <div class="address">
+                                            <ul class="social_link">
+                                                <li>
+                                                    <a href="#"><img src="icon/fb.png"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="icon/tw.png"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="icon/lin(2).png"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="icon/instagram.png"></a>
+                                                </li>
+                                            </ul>
+                                            <a href="index.html"> <img src="images/logo.png" alt="logo"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <div class="address">
+                                            <h3>Quick links</h3>
+                                            <ul class="Menu_footer">
+                                                <li class="active"> <img src="images/3.png" alt="#"> <a href="#game">Game</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#software">Software</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#about">About</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#testimonial"> Testimonial</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#contact">Contact</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <div class="address">
+                                            <h3>downloded</h3>
+                                            <ul class="Links_footer">
+                                                <li class="active"><img src="images/3.png" alt="#"> <a href="#">Lorem Ipsum </a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#">Simply random</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#">Roots in a</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#"> Piece</a> </li>
+                                                <li><img src="images/3.png" alt="#"> <a href="#">Classical</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 ">
+                                        <div class="address">
+                                            <h3>Contact us </h3>
+                                            <ul class="loca">
+                                                <li>
+                                                    <a href="#"><img src="icon/loc.png" alt="#" /></a>chennai 001
+                                                    <br> </li>
+                                                <li>
+                                                    <a href="#"><img src="icon/email.png" alt="#" /></a>jackpiro@gmail.com </li>
+                                                <li>
+                                                    <a href="#"><img src="icon/call.png" alt="#" /></a>+919865452355 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="copyright">
+                        <div class="container">
+                            <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footr>
+            <!-- end footer -->
+            <!-- Javascript files-->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/jquery-3.0.0.min.js"></script>
+            <script src="js/plugin.js"></script>
+            <!-- sidebar -->
+            <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+</body>
+
+</html>
