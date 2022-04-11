@@ -1,1 +1,1 @@
-The Website link is hosted on github :https://dinesh11515.github.io/jackpiro/
+The Website link is hosted :https://jackpiro-games.netlify.app/
